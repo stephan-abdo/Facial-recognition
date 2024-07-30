@@ -5,8 +5,6 @@ import face_recognition
 imgelon = face_recognition.load_image_file('Elon_Musk.jpg')
 imgelon_BGR = cv2.cvtColor(imgelon,cv2.COLOR_RGB2BGR)
 
-
-
 imgelontest = face_recognition.load_image_file('Elon_Musk_test.jpg')
 imgelontest_BGR = cv2.cvtColor(imgelontest,cv2.COLOR_RGB2BGR)
 
